@@ -1,0 +1,187 @@
+$color1: #22160E; /*oscuro*/
+$color2: #F6F5F0; /*claro*/
+$color3: #CEAF8A; /*beige*/
+$color4: #EDE3D9; /*beige claro*/
+$color5: #CFB18C; /*beige oscuro*/
+
+.bg-color1 {
+  background-color: $color1;
+}
+.bg-color2 {
+  background-color: $color2;
+}
+.bg-color3 {
+  background-color: $color3;
+}
+.bg-color4 {
+  background-color: $color4;
+}
+.bg-color5 {
+  background-color: $color5;
+}
+.color1 {
+  color: $color1;
+}
+.color2 {
+  color: $color2;
+}
+.color3 {
+  color: $color3;
+}
+.color4 {
+  color: $color4;
+}
+.color5 {
+  color: $color5;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap');
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 38px;
+}
+header {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+body {
+  color: $color1;
+  font-family: 'Lato', sans-serif;
+  background-color: $color2;
+}
+h1, h2, h3, h4, h5, {
+  font-weight: 700;
+}
+h2 {
+  font-family: 'Pacifico', cursive;
+}
+section {
+  padding: 40px 0;
+}
+/*carousel*/
+.carousel-inner {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+.carousel-inner {
+	padding-top: 40%;
+	display: block;
+	content: "";
+}
+.carousel-item {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: skyblue;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+	width: 60%;
+	z-index: 9;
+	margin-top: 20px;
+	text-align: center;
+}
+.carousel-caption h2 {
+	margin-bottom: 23px;
+}
+/* Common button styles and card */
+.card{
+	border: 0;
+}
+.btn-dark {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 300px;
+}
+.btn-dark {
+  background-position: center;
+  transition: background 0.8s;
+  &:hover {
+    background: $color5 radial-gradient(circle, transparent 1%, $color5 1%) center/15000%;
+  }
+  &:active {
+    background-color: $color3;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+}
+/*Botón arriba y whatsapp*/
+.boton-arriba {
+	      display: block;
+        position: fixed;
+	      right: 40px;
+        bottom:40px;
+	      text-align:center;
+	      z-index:999;
+	      color: $color1;
+}
+.btn-whatsapp {
+        display: block;
+        width: 65px;
+        height: 65px;
+        position: fixed;
+        left:40px;
+        bottom:40px;
+        border-radius:50%;
+        line-height:66px;
+        text-align:center;
+        z-index:999;
+        background-color: #25d366;
+        font-size: 30px;
+}
+.wt {
+  color: $color2;
+}
+a:hover {
+  color: $color1;
+}
+/*services*/
+.view-first img {
+    transition: all 0.2s linear;
+}
+.view-first:hover img {
+	transform: scale(1.1);
+}
+a {
+  text-decoration: none;
+  color: $color1;
+}
+.card-img, .card-img-top {
+  border-radius: 0;
+}
+/*contact*/
+.col-12 {
+  border: 0;
+  height: 350px;
+  width: 100%;
+}
+.border-left {
+  border-left: 1px solid #dee2e6;
+}
+/*redes*/
+.redes {
+  font-size: 34px;
+}
+/*footer*/
+footer {
+  font-family: 'Pacifico', cursive;
+}
+.copy {
+  text-decoration: none;
+  color: $color1;
+  font-family: 'Lato', sans-serif;
+}
+.copy:hover, .copy:focus {
+	color: $color5;
+}
