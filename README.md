@@ -5,19 +5,18 @@ Este proyecto es un sitio web diseñado como propuesta para un salón de uñas. 
 Fue un proyecto personal en el que trabajé tanto el diseño como la implementación técnica.
 
 ## 🌐 Demo online
-👉 [Ver el sitio en GitHub Pages](https://tuusuario.github.io/salon-de-unas/)  
+👉 [Ver el sitio en GitHub Pages](https://danielapuccio.github.io/salon-de-unas/)  
 
 ## 🛠️ Tecnologías utilizadas
-- HTML5  
-- CSS3  
+- HTML  
+- CSS  
 - JavaScript  
 - Diseño responsive  
 
 ## ✨ Características
-- Diseño visual moderno y femenino, adaptado al rubro.  
-- Secciones principales: inicio, servicios, galería, contacto.  
-- Logotipo y paleta de colores diseñados especialmente para la marca.  
-- Totalmente responsive para móviles y computadoras.  
+- **Identidad visual personalizada** logotipo y colores diseñados especialmente para la marca.
+- **Web orientada a negocio** la estructura y los textos se basan en un plan de negocios real.
+- **Diseño moderno y adaptable** interfaz simple, clara y responsive, apta para móviles y computadoras.
 
 ## 📌 Nota
-Este sitio fue creado como **proyecto personal** de negocio. La idea comercial no se concretó, pero el desarrollo web refleja el diseño y la implementación completa del sitio.  
+El proyecto refleja el **desarrollo integral de una marca y su presencia digital**, combinando diseño visual, estrategia de negocio y desarrollo web. 
